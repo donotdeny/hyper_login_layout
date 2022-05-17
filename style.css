@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.up{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.up > a{
+    text-decoration: none;
+    color: gray;
+}
+
+.up-icon{
+    font-size: 14px;
+    font-weight: 50px;
+    margin-right: 5px;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand > .main-brand a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 40px;
+    
+}
+
+.brand > .input{
+    height: 30px;
+    width: 210px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cart{
+    width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cart > a{
+    color: grey;
+    font-size: 22px;
+}
+
+.more-choose{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 70vw;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.more-choose > a{
+    text-decoration: none;
+    color: grey;
+}
+
+.last-header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: antiquewhite;
+}
+
+.last-header > a{
+    text-decoration: none;
+    color: grey;
+}
+
+.login{
+    margin: auto;
+    line-height: 35px;
+    width: 335px;
+    padding: 50px 0px;
+}
+
+.login-need{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.login-need-sign{
+    color: gray;
+}
+
+.login-main{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.login>input{
+    width: 300px;
+    border: solid 1.5px;
+    height: 30px;
+}
+
+.login-log{
+    background-color: black;
+    width: 150px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.login-log>a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.login-forgot{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.login > input{
+    padding-left: 5px;
+}
+
+.login{
+    margin-bottom: 65px;
+}
+
+footer{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.more{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: baseline;
+}
+
+.customer-service{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.customer-service > a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.about > a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.tip{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.tip > a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.mailing{
+    display: block;
+    line-height: 30px;
+}
+
+.mailing > .in > input{
+    width: 200px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.mailing > .in > button{
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+}
+
+.social{
+    padding-top: 10px;
+}
+
+.social > a{
+    color: #000;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.last{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    align-items:baseline;
+}
+
+.last > p{
+    font-size: 10px;
+    color: grey;
+}
+
+.last > strong{
+    font-size: 30px;
+}
+
+.last > .money > i{
+    font-size: 25px;
+}
